@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15AB972190BEE5E020FE1691 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AB9EE890E4F9C7730217D7 /* MainViewController.swift */; };
+		A6129E5F1C10BF10008687B4 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6129E5C1C10BF10008687B4 /* ReactiveCocoa.framework */; };
+		A6129E601C10BF10008687B4 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6129E5D1C10BF10008687B4 /* Result.framework */; };
+		A6129E611C10BF10008687B4 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6129E5E1C10BF10008687B4 /* SnapKit.framework */; };
+		A613E6FB1C0E3ED800FCFCF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A613E6FA1C0E3ED800FCFCF1 /* AppDelegate.swift */; };
+		A613E6FD1C0E3ED800FCFCF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A613E6FC1C0E3ED800FCFCF1 /* ViewController.swift */; };
+		A613E7021C0E3ED800FCFCF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A613E7011C0E3ED800FCFCF1 /* Assets.xcassets */; };
+		A628F02D1C1194AD003F4B8F /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A628F02C1C1194AD003F4B8F /* Circle.swift */; };
+		A62CCA341C1333FC00823DB4 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62CCA331C1333FC00823DB4 /* IntroViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15AB9EE890E4F9C7730217D7 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A6129E5C1C10BF10008687B4 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		A6129E5D1C10BF10008687B4 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		A6129E5E1C10BF10008687B4 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		A613E6F71C0E3ED800FCFCF1 /* CognitiveVRT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CognitiveVRT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A613E6FA1C0E3ED800FCFCF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A613E6FC1C0E3ED800FCFCF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A613E7011C0E3ED800FCFCF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A613E7061C0E3ED800FCFCF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A628F02C1C1194AD003F4B8F /* Circle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		A62CCA331C1333FC00823DB4 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A613E6F41C0E3ED800FCFCF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6129E5F1C10BF10008687B4 /* ReactiveCocoa.framework in Frameworks */,
+				A6129E601C10BF10008687B4 /* Result.framework in Frameworks */,
+				A6129E611C10BF10008687B4 /* SnapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A613E6EE1C0E3ED800FCFCF1 = {
+			isa = PBXGroup;
+			children = (
+				A6129E5C1C10BF10008687B4 /* ReactiveCocoa.framework */,
+				A6129E5D1C10BF10008687B4 /* Result.framework */,
+				A6129E5E1C10BF10008687B4 /* SnapKit.framework */,
+				A613E6F91C0E3ED800FCFCF1 /* CognitiveVRT */,
+				A613E6F81C0E3ED800FCFCF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A613E6F81C0E3ED800FCFCF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A613E6F71C0E3ED800FCFCF1 /* CognitiveVRT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A613E6F91C0E3ED800FCFCF1 /* CognitiveVRT */ = {
+			isa = PBXGroup;
+			children = (
+				A613E6FA1C0E3ED800FCFCF1 /* AppDelegate.swift */,
+				A613E6FC1C0E3ED800FCFCF1 /* ViewController.swift */,
+				A613E7011C0E3ED800FCFCF1 /* Assets.xcassets */,
+				A613E7061C0E3ED800FCFCF1 /* Info.plist */,
+				15AB9EE890E4F9C7730217D7 /* MainViewController.swift */,
+				A628F02C1C1194AD003F4B8F /* Circle.swift */,
+				A62CCA331C1333FC00823DB4 /* IntroViewController.swift */,
+			);
+			path = CognitiveVRT;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A613E6F61C0E3ED800FCFCF1 /* CognitiveVRT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A613E7091C0E3ED900FCFCF1 /* Build configuration list for PBXNativeTarget "CognitiveVRT" */;
+			buildPhases = (
+				A613E6F31C0E3ED800FCFCF1 /* Sources */,
+				A613E6F41C0E3ED800FCFCF1 /* Frameworks */,
+				A613E6F51C0E3ED800FCFCF1 /* Resources */,
+				A628F02A1C10C25C003F4B8F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CognitiveVRT;
+			productName = CognitiveVRT;
+			productReference = A613E6F71C0E3ED800FCFCF1 /* CognitiveVRT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A613E6EF1C0E3ED800FCFCF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Oliver Nielsen";
+				TargetAttributes = {
+					A613E6F61C0E3ED800FCFCF1 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = A613E6F21C0E3ED800FCFCF1 /* Build configuration list for PBXProject "CognitiveVRT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A613E6EE1C0E3ED800FCFCF1;
+			productRefGroup = A613E6F81C0E3ED800FCFCF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A613E6F61C0E3ED800FCFCF1 /* CognitiveVRT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A613E6F51C0E3ED800FCFCF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A613E7021C0E3ED800FCFCF1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A628F02A1C10C25C003F4B8F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveCocoa.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = "/usr/local/bin/carthage copy-frameworks";
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A613E6F31C0E3ED800FCFCF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62CCA341C1333FC00823DB4 /* IntroViewController.swift in Sources */,
+				A613E6FD1C0E3ED800FCFCF1 /* ViewController.swift in Sources */,
+				A628F02D1C1194AD003F4B8F /* Circle.swift in Sources */,
+				A613E6FB1C0E3ED800FCFCF1 /* AppDelegate.swift in Sources */,
+				15AB972190BEE5E020FE1691 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A613E7071C0E3ED800FCFCF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A613E7081C0E3ED800FCFCF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A613E70A1C0E3ED900FCFCF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_PREFIX_HEADER = "CognitiveVRT-Prefix.pch";
+				INFOPLIST_FILE = CognitiveVRT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CognitiveVRT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A613E70B1C0E3ED900FCFCF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_PREFIX_HEADER = "CognitiveVRT-Prefix.pch";
+				INFOPLIST_FILE = CognitiveVRT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CognitiveVRT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A613E6F21C0E3ED800FCFCF1 /* Build configuration list for PBXProject "CognitiveVRT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A613E7071C0E3ED800FCFCF1 /* Debug */,
+				A613E7081C0E3ED800FCFCF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A613E7091C0E3ED900FCFCF1 /* Build configuration list for PBXNativeTarget "CognitiveVRT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A613E70A1C0E3ED900FCFCF1 /* Debug */,
+				A613E70B1C0E3ED900FCFCF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A613E6EF1C0E3ED800FCFCF1 /* Project object */;
+}
